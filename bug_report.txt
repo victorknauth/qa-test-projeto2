@@ -6,3 +6,6 @@ Resultado Esperado: Mensagem de erro informando email ou senha incorretos.
 
 ## A mensagem de email ou senha incorretos não apareceu, apenas ao clicar em login ele não sai da tela.
     print (evidencias/bug_caso_teste5.png)
+
+CASO DE TESTE PARA VERSÃO BETA
+    # Adicionar ação para que após 5 tentativas de login errado, bloqueie o login por 10 minutos, para aumentar a segurança do usuário.    
