@@ -1,0 +1,32 @@
+Caso de Teste 1: Cadastro com dados válidos
+- Acessar o site https://automationexercise.com/login
+- Clicar em "New User Signup"
+- Preencher nome e e-mail válidos
+- Prosseguir com o formulário completo (nome, senha, data de nascimento, endereço, etc)
+- Clicar em "Create Account"
+Resultado Esperado: Conta criada com sucesso e usuário redirecionado para página de boas-vindas.
+
+Caso de Teste 2: Cadastro com e-mail já existente
+- Acessar a tela de cadastro
+- Preencher com um e-mail já cadastrado
+- Tentar criar conta
+Resultado Esperado: Exibir mensagem de erro "Email Address already exist!"
+
+Caso de Teste 3: Campos obrigatórios vazios
+- Acessar a tela de cadastro
+- Deixar os campos obrigatórios em branco
+- Tentar criar conta
+Resultado Esperado: Sistema não deve prosseguir e deve exibir mensagens de erro nos campos obrigatórios.
+
+Caso de Teste 4: Login com usuário e senha corretos
+- Acessar a tela de login
+- Colocar email e senha corretos
+- Clicar em Login
+Resultado Esperado: Acesso ao sistema redirecionando para a página de boas-vindas.
+
+Caso de Teste 5: Login ou senha incorretos
+- Acessar a tela de login
+- Colocar email ou senha incorretos
+- Clicar em Login
+Resultado Esperado: Mensagem de erro informando email ou senha incorretos.
+

@@ -1,0 +1,8 @@
+Caso de Teste 5: Login ou senha incorretos
+- Acessar a tela de login
+- Colocar email ou senha incorretos
+- Clicar em Login
+Resultado Esperado: Mensagem de erro informando email ou senha incorretos.
+
+## A mensagem de email ou senha incorretos não apareceu, apenas ao clicar em login ele não sai da tela.
+    print (evidencias/bug_caso_teste5.png)
